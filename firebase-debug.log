@@ -1,40 +1,10 @@
-[debug] [2023-01-13T05:09:44.170Z] ----------------------------------------------------------------------
-[debug] [2023-01-13T05:09:44.174Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Yana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --no-localhost
-[debug] [2023-01-13T05:09:44.175Z] CLI Version:   11.20.0
-[debug] [2023-01-13T05:09:44.175Z] Platform:      win32
-[debug] [2023-01-13T05:09:44.175Z] Node Version:  v16.16.0
-[debug] [2023-01-13T05:09:44.177Z] Time:          Thu Jan 12 2023 22:09:44 GMT-0700 (Mountain Standard Time)
-[debug] [2023-01-13T05:09:44.177Z] ----------------------------------------------------------------------
+[debug] [2023-01-20T12:33:27.396Z] ----------------------------------------------------------------------
+[debug] [2023-01-20T12:33:27.400Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Yana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --debug flag
+[debug] [2023-01-20T12:33:27.402Z] CLI Version:   11.20.0
+[debug] [2023-01-20T12:33:27.402Z] Platform:      win32
+[debug] [2023-01-20T12:33:27.402Z] Node Version:  v16.16.0
+[debug] [2023-01-20T12:33:27.404Z] Time:          Fri Jan 20 2023 05:33:27 GMT-0700 (Mountain Standard Time)
+[debug] [2023-01-20T12:33:27.404Z] ----------------------------------------------------------------------
 [debug] 
-[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
- 
-[debug] [2023-01-13T05:09:50.084Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
-[debug] [2023-01-13T05:09:50.085Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"1994456b-61f0-4040-81e5-ef64716e0b62"}
-[debug] [2023-01-13T05:09:50.655Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
-[debug] [2023-01-13T05:09:50.656Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"boZF8VxndR8om88SoHZNJDBsxpzG5hN_MbNQVB4iDmU"}
-[info] 
-[info] To sign in to the Firebase CLI:
-[info] 
-[info] 1. Take note of your session ID:
-[info] 
-[info]    19944
-[info] 
-[info] 2. Visit the URL below on any device and follow the instructions to get your code:
-[info] 
-[info]    https://auth.firebase.tools/login?code_challenge=5d2yIwO3WIUrFnyGEYfnYrkqHZtFsof8uQwNeUbz_FE&session=1994456b-61f0-4040-81e5-ef64716e0b62&attest=boZF8VxndR8om88SoHZNJDBsxpzG5hN_MbNQVB4iDmU
-[info] 
-[info] 3. Paste or enter the authorization code below once you have it:
-[info] 
-[debug] [2023-01-13T05:11:22.661Z] ----------------------------------------------------------------------
-[debug] [2023-01-13T05:11:22.664Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Yana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --reauth
-[debug] [2023-01-13T05:11:22.665Z] CLI Version:   11.20.0
-[debug] [2023-01-13T05:11:22.665Z] Platform:      win32
-[debug] [2023-01-13T05:11:22.666Z] Node Version:  v16.16.0
-[debug] [2023-01-13T05:11:22.667Z] Time:          Thu Jan 12 2023 22:11:22 GMT-0700 (Mountain Standard Time)
-[debug] [2023-01-13T05:11:22.667Z] ----------------------------------------------------------------------
-[debug] 
-[info] 
-[info] Visit this URL on this device to log in:
-[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=220976565&redirect_uri=http%3A%2F%2Flocalhost%3A9005
-[info] 
-[info] Waiting for authentication...
+[error] 
+[error] Error: Too many arguments. Run firebase help login for usage instructions
